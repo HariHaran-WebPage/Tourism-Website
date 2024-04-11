@@ -1,0 +1,73 @@
+.footer {
+  background-color: #4105f8;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content {
+  flex: 1;
+}
+
+.footer-info {
+  flex: 1 1 100%;
+}
+
+.social-icons {
+  color: #fff;
+  display: flex;
+  gap: 10px;
+}
+
+.quick-links,
+.destinations,
+.newsletter {
+  flex: -1 -1 100%;
+  padding-left: 200px;
+}
+
+.quick-links a,
+.destinations a {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.newsletter p {
+  margin-bottom: 10px;
+}
+
+.newsletter input[type="email"],
+.newsletter button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  background-color: #0968e3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #cc3700;
+}
+.copyright {
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding-left: 550px;
+}
